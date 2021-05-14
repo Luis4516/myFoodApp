@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Americana"
+        android:icon="@drawable/ic_baseline_restaurant_24"
+        android:id="@+id/blankFragment1"/>
+    <item android:title="Burger"
+        android:icon="@drawable/ic_baseline_fastfood_24"
+        android:id="@+id/blankFragment2"/>
+    <item android:title="Pizza"
+        android:icon="@drawable/ic_baseline_local_pizza_24"
+        android:id="@+id/blankFragment3"/>
+    <item android:title="Drinks"
+        android:id="@+id/blankFragment4"
+        android:icon="@drawable/ic_baseline_local_bar_24"
+        />
+</menu>

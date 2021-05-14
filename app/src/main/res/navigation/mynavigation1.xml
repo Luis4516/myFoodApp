@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mynavigation1"
+    app:startDestination="@id/blankFragment1">
+
+    <fragment
+        android:id="@+id/blankFragment1"
+        android:name="com.example.myfoodapp.BlankFragment1"
+        android:label="blankfragment1"
+        tools:layout="@layout/blankfragment1" >
+        <action
+            android:id="@+id/iralfragmento2"
+            app:destination="@id/blankFragment2" />
+        <action
+            android:id="@+id/iralfragmento3"
+            app:destination="@id/blankFragment3" />
+        <action
+            android:id="@+id/iralfragmento4"
+            app:destination="@id/blankFragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment2"
+        android:name="com.example.myfoodapp.BlankFragment2"
+        android:label="blankfragment2"
+        tools:layout="@layout/blankfragment2" >
+        <action
+            android:id="@+id/iralfragmento1a"
+            app:destination="@id/blankFragment1" />
+        <action
+            android:id="@+id/iralfragmento3a"
+            app:destination="@id/blankFragment3" />
+        <action
+            android:id="@+id/iralfragmento4a"
+            app:destination="@id/blankFragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment3"
+        android:name="com.example.myfoodapp.BlankFragment3"
+        android:label="blankfragment3"
+        tools:layout="@layout/blankfragment3" >
+        <action
+            android:id="@+id/iralfragmento1b"
+            app:destination="@id/blankFragment1" />
+        <action
+            android:id="@+id/iralfragmento2b"
+            app:destination="@id/blankFragment2" />
+        <action
+            android:id="@+id/iralfragmento4b"
+            app:destination="@id/blankFragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment4"
+        android:name="com.example.myfoodapp.BlankFragment4"
+        android:label="blankfragment4"
+        tools:layout="@layout/blankfragment4" >
+        <action
+            android:id="@+id/iralfragmento1c"
+            app:destination="@id/blankFragment1" />
+        <action
+            android:id="@+id/iralfragmento2c"
+            app:destination="@id/blankFragment2" />
+        <action
+            android:id="@+id/iralfragmento3c"
+            app:destination="@id/blankFragment3" />
+    </fragment>
+</navigation>
